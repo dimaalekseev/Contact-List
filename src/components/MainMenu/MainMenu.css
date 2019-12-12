@@ -1,0 +1,18 @@
+nav{
+    
+    text-transform: uppercase;
+}
+ul.nav{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+max-width: 74%;
+background-color: #fcda6a;
+padding: 15px;
+}
+ul.nav li{
+    display: inline-block;
+    float: left;
+    width: fit-content;
+}
